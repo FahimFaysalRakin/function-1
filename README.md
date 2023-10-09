@@ -7,14 +7,14 @@ A function in JavaScript is similar to a procedure—a set of statements that pe
 
 ## functionDeclaration
 
-```bash
+```javascript
   function rectArea (a, b) {
     return a / b;
   }
   
   console.log(rectArea (30, 6));
 ```
-```bash
+```javascript
   function* generator(a) {
     yield a;
     yield a + 20;
@@ -33,7 +33,7 @@ A function in JavaScript is similar to a procedure—a set of statements that pe
   
 ## function constructor
 
-```bash
+```javascript
   const sum = new Function('a', 'b', 'return b + a');
 
   console.log(sum(2, 6));
@@ -43,7 +43,7 @@ A function in JavaScript is similar to a procedure—a set of statements that pe
 
 ## function expression
 
-```bash
+```javascript
   let count = function(num1, num2){
     return num1 * num2
 
@@ -59,12 +59,12 @@ A function in JavaScript is similar to a procedure—a set of statements that pe
 ```
 
 ## function arrow
-```bash
+```javascript
   const names = ['fahim', 'roni', 'tanjil', 'rakin'];
 
   console.log(names.map((name) => name.length));
 ```
-```bash
+```javascript
   let square = num => num * num;
 
  let squareResult = square(9);
@@ -74,14 +74,14 @@ A function in JavaScript is similar to a procedure—a set of statements that pe
 
 ## function parametter
 
-```bash
+```javascript
   function multiplay(a, b=1 ){
   return a * b
 }
 console.log(multiplay(5,4));
 
 ```
-```bash
+```javascript
   let numbers = [2,5,];
 
 let squareNumbers = numbers.map(function(number){
